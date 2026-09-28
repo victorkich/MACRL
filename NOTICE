@@ -1,0 +1,56 @@
+MACRL
+Copyright (c) 2026 Victor A. Kich, Satoshi Yamamori, Jun Morimoto
+
+This repository includes code from scaling-crl
+(https://github.com/wang-kevin3290/scaling-crl), Copyright 2023 FLAIR, licensed
+under the Apache License 2.0. scaling-crl builds on JaxGCRL
+(https://github.com/MichalBortkiewicz/JaxGCRL). A copy of the Apache License 2.0
+is in LICENSE-APACHE.
+
+The files below come from scaling-crl and remain under the Apache License 2.0.
+Each Python file says so in its header. All other files are released under the
+MIT License (see LICENSE).
+
+Copied without changes:
+- `envs/__init__.py`
+- `envs/ant_push.py`
+- `envs/humanoid.py`
+- `envs/reacher.py`
+- `envs/assets/ant.xml`
+- `envs/assets/ant_ball.xml`
+- `envs/assets/ant_maze.xml`
+- `envs/assets/ant_push.xml`
+- `envs/assets/half_cheetah.xml`
+- `envs/assets/humanoid.xml`
+- `envs/assets/humanoid_maze.xml`
+- `envs/assets/simple_maze.xml`
+
+Adapted and modified by the MACRL authors:
+- `buffer.py`
+- `evaluator.py`
+- `envs/ant.py`
+- `envs/ant_ball.py`
+- `envs/ant_maze.py`
+- `envs/ant_maze_generalization.py`
+- `envs/humanoid_maze.py`
+- `envs/pusher.py`
+
+New environments derived from the scaling-crl environments:
+- `envs/ant_multi_chicane.py`
+- `envs/ant_pair.py`
+- `envs/ant_pair_ball.py`
+- `envs/ant_pair_chicane.py`
+- `envs/ant_pair_corridor.py`
+- `envs/ant_pair_maze.py`
+- `envs/ant_pair_maze_ball.py`
+- `envs/ant_pair_tload.py`
+
+Training scripts that reuse parts of the scaling-crl training script:
+- `train_marl_crl.py`
+- `train_masac.py`
+- `train_maddpg.py`
+- `train_maddpg_her.py`
+- `train_magcbc.py`
+- `train_magciql.py`
+- `train_magcsac.py`
+- `train_mappo.py`

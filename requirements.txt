@@ -1,0 +1,24 @@
+# Exact versions used for every experiment reported in the paper.
+# Verified against the training environment, not hand-written.
+# Requires a CUDA 12 capable GPU. Tested on Python 3.12.
+
+jax[cuda12]==0.9.0
+jaxlib==0.9.0
+brax==0.14.0
+flax==0.12.3
+optax==0.2.6
+chex==0.1.91
+mujoco==3.4.0
+mujoco-mjx==3.4.0
+numpy==2.3.5
+etils==1.13.0
+orbax-checkpoint==0.11.32
+scipy==1.17.0
+
+# CLI parsing and progress reporting
+tyro==0.9.1
+enlighten==1.14.1
+
+# Optional. Logging is disabled unless --track is passed.
+wandb==0.24.1
+wandb-osh==1.2.2
